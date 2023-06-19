@@ -1,2 +1,2 @@
-./node_modules
-./build-esbuild
+node_modules
+build-esbuild
