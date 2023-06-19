@@ -1,0 +1,85 @@
+
+{
+  "version": "1.0.0",
+  "name": "eight-base-builder-app",
+  "main": "src/index.tsx",
+  "keywords": [
+    "typescript",
+    "react",
+    "8base"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/react-scripts test --env=jsdom",
+    "start": "./node_modules/.bin/react-scripts start",
+    "eject": "./node_modules/.bin/react-scripts eject",
+    "build": "./node_modules/.bin/react-scripts build",
+    "build:esbuild": "node ./scripts/build-esbuild.mjs",
+    "lint": "./node_modules/.bin/eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "npm run lint --fix",
+    "typecheck": "./node_modules/.bin/tsc --noEmit"
+  },
+  "dependencies": {
+    "luxon": "1.28.0",
+    "@8base-react/app-provider": "^2.5.2",
+    "@8base-react/auth": "^2.5.2",
+    "@apollo/client": "3.7.1",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "5.10.7",
+    "@mui/x-data-grid": "^5.1.0",
+    "@mui/x-date-pickers": "5.0.19",
+    "filestack-js": "3.7.0",
+    "axios": "0.26.1",
+    "dayjs": "1.11.6",
+    "formik": "2.2.6",
+    "graphql": "15.5.0",
+    "graphql-request": "^3.4.0",
+    "lodash.debounce": "^4.0.8",
+    "material-ui-popup-state": "1.9.0",
+    "nanoid": "^3.1.25",
+    "ramda": "^0.27.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "5.2.0"
+  },
+  "devDependencies": {
+
+   
+    "@emotion/babel-preset-css-prop": "11.2.0",
+    "@types/ramda": "^0.27.1",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/react-helmet": "^6.1.5",
+    "@types/react-router-dom": "5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "dotenv": "^16.0.1",
+    "esbuild": "^0.14.45",
+    "eslint": "7.15.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-plugin-flowtype": "5.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.2.0",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-unused-imports": "1.1.5",
+    "fs-extra": "^10.1.0",
+    "glob-promise": "^4.2.2",
+    "nunjucks": "^3.2.3",
+    "react-scripts": "4.0.2",
+    "typescript": "4.1.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
+

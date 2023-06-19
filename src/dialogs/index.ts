@@ -1,0 +1,1 @@
+export { GlobalDialogImageComponent } from './GlobalDialogImageComponent';

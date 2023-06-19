@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>8base App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      #user-app-root {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    
+    
+    {% for path in assetsMap["css"] %}<link rel="stylesheet" href="/{{ path }}">{% endfor %}
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="user-app-root"></div>
+    
+    {% for path in assetsMap["js"] %}<script src="/{{ path }}"></script>{% endfor %}
+  </body>
+</html>

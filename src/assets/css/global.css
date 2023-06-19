@@ -1,0 +1,15 @@
+:root {
+  --primaryMain: #008DCE;
+ --primaryLight: #3BB4EB;
+ --primaryDark: #006492;
+ --primaryContrastText: #fff;
+ --secondaryMain: #6EF1DB;
+ --secondaryLight: #34CCB3;
+ --secondaryDark: #06816C;
+ --secondaryContrastText: #fff;
+  --backgroundDefault: #fff;
+  --backgroundSurface: #fff;
+  --errorMain: #d32f2f;
+ --errorContrastText: #fff;
+   --textBackgroundPrimary: #212121;
+}
